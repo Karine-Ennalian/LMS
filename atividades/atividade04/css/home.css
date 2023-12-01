@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Redressed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navegador superior */
+
+h2{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+.container-navegador {
+    display: flex;
+    position: relative;
+    padding: 10px;
+    background-color: rgb(72, 86, 101);
+    font-family: 'Gloria Hallelujah', cursive;
+    justify-content: center;
+    align-items: center;
+    color: rgb(249, 102, 102);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    text-shadow: 5px 5px 3px rgba(204, 54, 54, 0.6);
+}
+
+.container-navegador .container-menu .botao .botaoMenu {
+    color: rgb(238, 238, 238);
+    padding: 1px 30px;
+    justify-content: center;
+    text-decoration: none;
+    background-color: rgb(249, 102, 102);
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(204, 54, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container-navegador .container-menu .botao .botaoMenu:hover {
+    color: black;
+    background-color: rgb(204, 54, 54);
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(249, 102, 102);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Conteúdo */
+
+/* NAVEGADOR ESQUERDO */
+.container-conteudo {
+    display: flex;
+    height: 100%;
+}
+.container-conteudo .mLateralEsquerdo{
+    flex-shrink: 0;
+    width: 300px;
+    background-color: rgb(72, 86, 101);
+}
+
+.container-conteudo .mLateralEsquerdo .bMenuLeft {
+    margin: 30px 40px;
+    align-items: center;
+    padding: 10px 15px;
+    color: rgb(238, 238, 238);;
+    background-color: rgb(249, 102, 102);
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(204, 54, 54);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    text-decoration: none;
+}
+
+.container-conteudo .mLateralEsquerdo .bMenuLeft:hover{
+    color: black;
+    background-color: rgb(204, 54, 54);
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: rgb(249, 102, 102);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+.container-conteudo .mLateralEsquerdo a{
+    display: block;
+}
+
+.container-conteudo .displayImg{
+    background-color: rgb(226, 187, 199);
+    width: 75%;
+    padding: 15px 15px 15px 100px;
+    border-right: dotted 1px rgb(204, 54, 54);
+}
+
+
+/* CONTEÚDO */
+
+.container-conteudo .displayImg .imagens {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    border: dotted 2px;
+    border-radius: 20px;
+    border-color: rgb(249, 102, 102);
+    box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.253);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lateral direito */
+
+.container-conteudo .mLateralDireito{
+    background-color: rgb(204, 54, 54);
+    width: 25%;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+.container-conteudo .mLateralDireito .question {
+    margin: 20px 10px;
+    text-shadow: 4px 3px 5px rgba(238, 238, 238, 0.856);
+}
+
+.container-conteudo .mLateralDireito .paragrafo {
+    margin: 10px 15px;
+}
+
+/* RODAPE */
+
+.rodape{
+    position: relative;
+    padding: 2px;
+    background-color: rgb(72, 86, 101);
+    color: rgb(238, 238, 238);;
+    text-shadow: 4px 2px 5px rgba(249, 102, 102, 0.856);
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

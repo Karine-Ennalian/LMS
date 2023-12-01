@@ -1,0 +1,138 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+/* SITE */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(59, 57, 57)
+}
+/* CABEÇALHO */
+header{
+    height: 100%;
+    width: 400px;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+}
+.header-h2{
+    color: gold;
+    padding: 10px;
+    cursor: pointer;
+    font-family: 'Redressed';
+}
+.navbar{
+    padding: 10px;
+}
+.navbar a{
+    display: block;
+    text-decoration: none;
+    color: rgb(241, 241, 43);
+    padding: 10px;
+    font-family: cursive;
+}
+.navbar a:hover{
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: black;
+}
+.dropdown{
+    width: 350px;
+    background-color: black;
+    color: rgb(241, 241, 43);
+    font-family: cursive;
+    cursor: pointer;
+    padding-top: 10px;
+}
+.dropdown .link-dropdown{
+    padding: 10px 10px 10px 35px;
+}
+.dropdown .menu-dropdown{
+    background-color: black;
+    width: 300px;
+    position: absolute;
+    top: 150px;
+    left: 170px;
+    display: none;
+    margin-left: 190px;
+}
+.dropdown .link-dropdown{
+    padding-right: 10px;
+}
+.dropdown:hover .menu-dropdown{
+    display: block;
+}
+.dropdown .link-dropdown:hover{
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: black;
+}
+.dropdown .menu-dropdown .link{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+.dropdown .menu-dropdown .link:hover{
+    background-color: goldenrod;
+    border-radius: 5px;
+    color: black;
+}
+
+/* CONTEÚDO */
+.article-pokemon{
+    background-color: darkgrey;
+    width: 700px;
+    padding: 20px;
+    margin: 0px 500px;
+    border: 2px black dotted;
+    text-align: justify;
+}
+.article-pokemon h3{
+    color: rgb(155, 115, 16);
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Redressed';
+    font-size: 25px;
+}
+.article-pokemon p{
+    padding: 3px;
+    font-family: cursive;
+}
+
+.article-geracao{
+    background-color: darkgrey;
+    width: 700px;
+    padding: 20px;
+    margin: 0px 500px;
+    border: 2px black dotted;
+    border-top: 0px;
+    text-align: justify;
+}
+.article-geracao h3{
+    color: rgb(155, 115, 16);
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Redressed';
+    font-size: 25px;
+}
+.article-geracao h4{
+    color: rgb(155, 115, 16);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Redressed';
+    font-size: 20px;
+}
+.article-geracao p{
+    padding: 3px;
+    font-family: cursive;
+}
+
+/* RODAPÉ */
+footer{
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    padding-left: 400px;
+}
