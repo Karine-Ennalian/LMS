@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 500px;
+    display: flex;
+}
+
+.coluna1 {
+    background-color: blueviolet;
+    width: calc(50% - 100px);
+}
+
+.coluna2 {
+    background-color: aqua;
+    width: calc(50% + 100px);
+}

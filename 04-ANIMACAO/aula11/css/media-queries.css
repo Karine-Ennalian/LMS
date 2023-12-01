@@ -1,0 +1,19 @@
+.teste {
+    width: 800px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+@media screen and (max-width: 576px) {
+    .teste {
+        width: 200px;
+        background-color: coral;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .teste {
+        width: 500px;
+        background-color: darkmagenta;
+    }
+}

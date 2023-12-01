@@ -1,0 +1,17 @@
+.teste {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    padding: 50px;
+    border: 10px solid black;
+}
+
+.teste2 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    box-sizing: border-box;
+    padding: 50px;
+    border: 5px solid black;
+}
