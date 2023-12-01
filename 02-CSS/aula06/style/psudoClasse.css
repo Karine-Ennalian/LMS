@@ -1,0 +1,6 @@
+.link1:hover{
+    font-size: 50px;
+}
+.link1:active{
+    color: blueviolet;
+}

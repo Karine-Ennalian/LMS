@@ -1,0 +1,14 @@
+.teste{
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+/* margin: auto só centraliza elementos verticalmente */
+.teste02{
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}

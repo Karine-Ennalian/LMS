@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.botao{
+    background-color: chocolate;
+    text-align: center;
+    padding: 10px;
+}
+.botao:hover{
+    background-color: coral;
+}
