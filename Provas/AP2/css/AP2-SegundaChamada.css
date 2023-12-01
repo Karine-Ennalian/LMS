@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.message-slider {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-slider .card {
+    /* position: relative; */
+    transform: translate(500px, 0);
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+    margin: 30px auto;
+}
+
+.message-slider .card .titulo{
+    padding: 16px;
+    font-size: 24px;
+    background-color: rgb(205, 155, 94);
+    text-align: center;
+}
+
+.message-slider .card .corpo {
+    padding: 26px;
+    text-align: center;
+}
+
+.message-slider .card.active{
+    transform: translate(0, 0);
+}
+
+.message-slider .card.meio-esquerda{
+    animation: meio_esquerda 500ms linear;
+    transform: translate(-500px, 0);
+}
+
+@keyframes meio_esquerda {
+    from{
+        transform: translate(0,0);
+    }to{
+        transform: translate(-500px, 0);
+    }
+}
+
+.message-slider .card.direita-meio{
+    animation: direita_meio 500ms linear;
+    transform: translate(0px, 0);
+}
+
+
+@keyframes direita_meio {
+    from{
+        transform: translate(500px, 0);
+    }to{
+        transform: translate(0px, 0px);
+    }
+}
+
+.message-slider .card.meio-direita{
+    animation: meio_direita 500ms linear;
+    transform: translate(500px, 0);
+}
+
+@keyframes meio_direita {
+    from{
+        transform: translate(0,0);
+    }to{
+        transform: translate(500px, 0);
+    }
+}
+
+.message-slider .card.esquerda-meio{
+    animation: esquerda-meio 500ms linear;
+    transform: translate(0, 0);
+}
+
+@keyframes esquerda-meio {
+    from{
+        transform: translate(-500px,0);
+    }to{
+        transform: translate(0px, 0);
+    }
+}
+
+.message-slider .seta-esquerda {
+    position: absolute;
+    left:0;
+    top: calc(50% - 28px);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 40px;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.message-slider .seta-direita {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    top: calc(50% - 28px);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}

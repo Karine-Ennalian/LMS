@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navegador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.dropdown {
+    width: 200px;
+    text-align: center;
+}
+.dropdown .botao{
+    background-color: chocolate;
+    border: 2px solid coral;
+    border-radius: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.dropdown .menu {
+    background-color: chocolate;
+    border-radius: 15px;
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+
+.dropdown:hover .menu{
+    display: block;
+    background-color: chocolate;
+    border: 2px solid coral;
+    border-radius: 15px;
+}
+
+.dropdown .menu .link-drop{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    background-color: coral;
+    border: 2px solid chocolate;
+    border-radius: 15px;
+}
+
+.dropdown .menu .link-drop:hover {
+    background-color: chocolate;
+    border: 2px solid coral;
+    border-radius: 15px;
+}
+
+.navegador .navegador-links {
+    margin: 5px;
+    padding: 20px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegador-links .link {
+    margin-right: 30px;
+    padding: 5px 30px;
+    text-decoration: none;
+    color: black;
+    background-color: chocolate;
+    border: 2px solid coral;
+    border-radius: 15px;
+}
+
+.navegador-links .link:hover {
+    background-color: coral;
+    border: 2px solid chocolate;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    flex-grow: 0;
+}
+
+.nav-left {
+    display: flex;
+    height: 1200px;
+    width: 20vw;
+    background-color: burlywood;
+    justify-content: center;
+}
+
+.nav-left-links .link-left {
+    display: block;
+    text-decoration: none;
+    color: black;
+    background-color: chocolate;
+    border: 2px solid coral;
+    border-radius: 15px;
+    padding: 5px 60px;
+    margin-top: 30px;
+}
+
+.nav-left-links .link-left:hover {
+    background-color: coral;
+    border: 2px solid chocolate;
+    border-radius: 15px;
+}
+
+.conteudo {
+    background-color: rgb(253, 248, 241);
+    width: 80vw;
+    height: 1200px;
+}
+
+.conteudo .texto {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+}
+
+@keyframes rodar {
+    from{
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.conteudo .loading {
+    height: 150px;
+    width: 150px;
+    margin: 40px;
+    margin-left: 300px;
+    border: 20px solid transparent;
+    border-top: 20px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    animation-name: rodar;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@media screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .navegador {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: burlywood;
+    }
+    
+    .dropdown {
+        width: 200px;
+        text-align: center;
+    }
+    .dropdown .botao{
+        background-color: chocolate;
+        border: 2px solid coral;
+        border-radius: 15px;
+        padding: 5px 15px;
+        cursor: pointer;
+    }
+    
+    .dropdown .menu {
+        background-color: chocolate;
+        border-radius: 15px;
+        position: absolute;
+        width: 200px;
+        display: none;
+    }
+    
+    .dropdown:hover .menu{
+        display: block;
+        background-color: chocolate;
+        border: 2px solid coral;
+        border-radius: 15px;
+    }
+    
+    .dropdown .menu .link-drop{
+        display: block;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        background-color: coral;
+        border: 2px solid chocolate;
+        border-radius: 15px;
+    }
+    
+    .dropdown .menu .link-drop:hover {
+        background-color: chocolate;
+        border: 2px solid coral;
+        border-radius: 15px;
+    }
+    
+    .navegador .navegador-links {
+        margin: 5px;
+        padding: 20px 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navegador-links .link {
+        margin-right: 30px;
+        padding: 5px 30px;
+        text-decoration: none;
+        color: black;
+        background-color: chocolate;
+        border: 2px solid coral;
+        border-radius: 15px;
+    }
+    
+    .navegador-links .link:hover {
+        background-color: coral;
+        border: 2px solid chocolate;
+        border-radius: 15px;
+    }
+    
+    .container {
+        display: block;
+        width: 100%;
+    }
+    
+    .nav-left {
+        display: flex;
+        width: 100%;
+        height: 340px;
+        background-color: burlywood;
+        justify-content: center;
+    }
+    
+    .nav-left-links .link-left {
+        display: block;
+        text-decoration: none;
+        color: black;
+        background-color: chocolate;
+        border: 2px solid coral;
+        border-radius: 15px;
+        padding: 5px 60px;
+        margin-top: 30px;
+    }
+    
+    .nav-left-links .link-left:hover {
+        background-color: coral;
+        border: 2px solid chocolate;
+        border-radius: 15px;
+    }
+    
+    .conteudo {
+        width: 100%;
+        height: 1200px;
+    }
+    
+    .conteudo .texto {
+        display: flex;
+        justify-content: center;
+    }
+    
+    @keyframes rodar {
+        from{
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .conteudo .loading {
+        height: 150px;
+        width: 150px;
+        margin: 40px;
+        margin-left: 200px;
+        border: 20px solid transparent;
+        border-top: 20px solid chocolate;
+        border-radius: 50%;
+        animation-name: rodar;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}
