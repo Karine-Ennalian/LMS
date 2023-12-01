@@ -1,0 +1,22 @@
+.accordion {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.accordion .section .titulo {
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.accordion .section .conteudo{
+    background-color: aquamarine;
+    height: 0;
+    overflow: hidden;
+}
+
+.accordion .section .conteudo.active {
+    height: 250px;
+}

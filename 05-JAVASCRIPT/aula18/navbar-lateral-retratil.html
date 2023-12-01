@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .retratil {
+            background-color: black;
+            /* display: flex;*/
+            /*justify-content: space-between;*/
+        }
+
+        .retratil .lateral-retratil .menu{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .lateral-retratil .menu-retratil {
+            display: none;
+        }
+
+        .lateral-retratil .esquerda{
+            display: flex;
+        }
+
+        .lateral-retratil .home{
+            background-color: green;
+        }
+
+        .lateral-retratil a, 
+        .lateral-retratil .hamburguer{
+            text-decoration: none;
+            display: block;
+            color: white;
+            padding: 14px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        .navbar-responsivo .links{
+            display: flex;
+        }
+
+        .navbar-responsivo .hamburguer{
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="retratil">
+        <div class="hamburguer">&#9776;</div>
+        <div class="lateral-retratil">
+            <div class="menu">
+                <div class="esquerda">
+                    <div class="home">
+                        <a href="">Home</a>
+                    </div>
+                    <div class="links">
+                        <a href="">News</a>
+                        <a href="">Contact</a>
+                        <a href="">About</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <script>
+
+    </script>
+</body>
+</html>
