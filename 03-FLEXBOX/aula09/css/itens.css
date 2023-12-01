@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.div1{
+    background-color: aqua;
+    height: 200px;
+    flex-basis: 200px;
+}
+
+.div2{
+    background-color: blueviolet;
+    height: 200px;
+    flex-basis: 100px;
+    flex-grow: 1; 
+}
+.div3{
+    background-color: blue;
+    height: 200px;
+    flex-basis: 150px;
+    flex-grow: 2;
+}
+
+.container2{
+    display: flex;
+}
+
+.div4{
+    background-color: yellow;
+    height: 200px;
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.div5{
+    background-color: salmon;
+    height: 200px;
+    flex-basis: 700px;
+    /* flex-shrink: 1; PADRÃO */
+}
+
+.div6{
+    background-color: chartreuse;
+    height: 200px;
+    flex-basis: 600px;
+    flex-shrink: 2;
+}

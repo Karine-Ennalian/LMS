@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Bordas */
+/* .teste{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 30px 10px;
+}
+
+.circulo{
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    border-radius: 50%;
+} */
+
+/* Sombras */
+/* h1{
+    text-shadow: 8px 2px 3px rgba(255, 0, 0, 0.5);
+}
+
+nav{
+    background-color: bisque;
+    padding: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+} */
+
+/* Transformações */
+.teste{
+    width: 200px;
+    height: 200px;
+    background-color: rgba(137, 43, 226, 0.5);
+    border: 3px solid black;
+}
+
+.div1{
+    /* scale é primeiro horizontal e depois vertical (H, V) */
+    transform: translate(50px, 150px) rotate(45deg) scale(2, 3);
+}
+
+.div2{
+    transform: skewX(10deg) skewY(20deg);
+}
+
+/* Tansições */
+.trans{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    transition: width 3s;
+    transition-timing-function: ease;
+    transition-delay: 2s;
+}
+
+.trans:hover{
+    background-color: brown;
+    width: 700px;
+    transition-delay: 0s;
+}
